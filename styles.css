@@ -1,0 +1,41 @@
+html, body {
+	background: #00ff00 url("main.jpg") 0 0/100% 100% no-repeat fixed;
+	color:white;
+	font: 1em sans-serif;
+	text-align:justify;
+}
+a:link, a:visited {
+    color: #FF9900;
+    text-decoration: underline;
+}
+
+a:link:active, a:visited:active {
+    color: red;
+} 
+.container {
+	background: rgba(24, 24, 24, 0.7);
+	margin:20px 40px;
+}
+.main {
+	padding: 1em 1em;
+}
+.row {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding: 15px;
+}
+.social {
+	line-height: 64px;
+}
+.social a img {
+	height: 32px;
+	width: 32px;
+	vertical-align: middle;
+	margin: 5px;
+}
+.footer {
+	text-align: center;
+	background:black; 
+	padding: 1em 0;
+}
