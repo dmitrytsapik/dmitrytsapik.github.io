@@ -3,21 +3,18 @@ html, body {
 	color:white;
 	font: 1em sans-serif;
 	text-align:justify;
+	margin:20px 30px;
 }
 a:link, a:visited {
     color: #FF9900;
     text-decoration: underline;
 }
-
 a:link:active, a:visited:active {
     color: red;
 } 
-.container {
-	background: rgba(24, 24, 24, 0.7);
-	margin:20px 40px;
-}
 .main {
 	padding: 1em 1em;
+	background: rgba(24, 24, 24, 0.7);
 }
 .row {
 	display: flex;
