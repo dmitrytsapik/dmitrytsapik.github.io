@@ -17,13 +17,29 @@ a:link:active, a:visited:active {
 	background: rgba(24, 24, 24, 0.7);
 }
 .row {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
 	padding: 15px;
+	background-color: black;
+}
+.row img {
+	vertical-align:middle;
+	display:inline-block;
+	width: 64px;
+	height: 64px;
+}
+.about {
+	vertical-align:middle;
+	display:inline-block;
+	margin-left:10px;
+}
+.about b {
+	margin-left:-1px;
+	font-size:36px;
 }
 .social {
+	display:inline-block;
 	line-height: 64px;
+	float:right;
+	vertical-align:middle;
 }
 .social a img {
 	height: 32px;
