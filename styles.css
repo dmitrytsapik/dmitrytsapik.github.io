@@ -1,5 +1,5 @@
 html, body {
-	background: #00ff00 url("main.jpg") 0 0/100% 100% no-repeat fixed;
+	background: #000000 url("images/main.jpg") 0 0/100% 100% no-repeat fixed;
 	color:white;
 	font: 1em sans-serif;
 	text-align:justify;
@@ -33,7 +33,7 @@ a:link:active, a:visited:active {
 }
 .about b {
 	margin-left:-1px;
-	font-size:36px;
+	font-size:22px;
 }
 .social {
 	display:inline-block;
@@ -43,12 +43,19 @@ a:link:active, a:visited:active {
 }
 .social a img {
 	height: 32px;
-	width: 32px;
+	width: auto;
 	vertical-align: middle;
 	margin: 5px;
+}
+ul li {
+	margin-top: 1em;
 }
 .footer {
 	text-align: center;
 	background:black; 
 	padding: 1em 0;
+}
+.footer .powered_by {
+	display: block;
+	font: italic 0.8em/1.3em sans-serif;
 }
