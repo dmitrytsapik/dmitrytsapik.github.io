@@ -59,3 +59,10 @@ body {
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
+
+.powered-by {
+	position: absolute;
+	right: 1em;
+	bottom: 0.5em;
+	font-family: 'Hind', sans-serif;
+}
