@@ -2,12 +2,11 @@
 html, body {
 	background: #000000 url("images/main2.jpg") 0 0/100% 100% no-repeat fixed;
 	color:white;
-	font: 1em sans-serif;
+	font: 1em 'Hind', sans-serif;
 	width: 100%;
 	height: 100%;
 	padding: 0em;
 	margin: 0em;
-
 }
 
 body {
@@ -18,51 +17,63 @@ body {
 }
 
 .row {
-	padding-top: 15px;
+	position: relative;
+	padding: 80px;
 	text-align: center;
 	background: rgba(24, 24, 24, 0.5);
-	border-radius: 5px;
+	border-radius: 100%;
+}
+.row > a {
+	position: absolute;
+	display:block;
 }
 
+.row > a.mdl {
+	top: 50%;
+	margin-top: -16px; 
+}
+.row > a.ctr {
+	left:50%;
+	margin-left: -16px;
+}
+.row > a.upr {
+	top: 23%;
+	margin-top: -16px;
+}
+.row > a.lwr {
+	bottom: 23%;
+	margin-bottom: -16px; 
+}
 .row > img {
 	vertical-align:middle;
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
+	width: 300px; height: auto;
+	border-radius: 100%;
 	border: 1px solid rgba(24, 24, 24, 0.7);
 }
 
 .about {
-	vertical-align:middle;
+	position: absolute;
+	bottom:80px;
 	background: rgba(24, 24, 24, 0.7);
-	margin-top: 10px;
-	padding: 5px;
-	font-size:26px;
+	padding-top: 240px;
+	box-sizing: border-box;
+	font-size:24px;
 	font-family: 'Hind', sans-serif;
+	width:301px;
+   height:301px;
+   border-radius:100%;
+   clip: rect(230px, 300px, 300px, 0);
 }
 
-.social {
-	vertical-align:middle;
-	padding-right: 0.8em;
-	padding-left: 0.8em;
-}
-.social a img {
+.row a img {
 	height: 32px;
 	width: auto;
 	vertical-align: middle;
-	margin: 3px;
-}
-.footer {
-	text-align: center;
-	background:black; 
-	padding: .6em 0;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-}
+/*	margin: 3px;
+*/}
 
 .powered-by {
 	position: absolute;
 	right: 1em;
 	bottom: 0.5em;
-	font-family: 'Hind', sans-serif;
 }
